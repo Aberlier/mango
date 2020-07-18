@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    encoding: UF-8
+    prefix: classpath:/templates/
+    suffix: .html
+  servlet:
+    content-type: text/html

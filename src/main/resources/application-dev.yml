@@ -1,0 +1,31 @@
+server:
+  port: 8081
+  error:
+    path: /error
+  servlet:
+    session:
+      timeout: 30m
+      context-path: /mango
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 500
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/mangodb?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  #定义监控资源
+  devtools:
+    devtools:
+        restart:
+          enabled: true  #设置开启热部署
+          additional-paths: src/main/java #重启目录
+          exclude: WEB-INF/**
+        freemarker:
+          cache: false    #页面不加载缓存，修改即时生效
+#获取mapper.xml
+mybatis:
+  mapper-locations: classpath:**/*.xml
+
