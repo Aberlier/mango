@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mangocms</groupId>
-    <artifactId>mango</artifactId>
+    <artifactId>mango-main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mango</name>
     <description>mangoCSM</description>
