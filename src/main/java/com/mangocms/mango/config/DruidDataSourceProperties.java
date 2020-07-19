@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author: zjc
  * @create: 2020-07-19 08:42
  **/
-@ConfigurationProperties(prefix="spring.datasource.druid")
+/*@ConfigurationProperties(prefix="spring.datasource.druid")
 public class DruidDataSourceProperties {
     //jdbc
     private String driverClassName;
@@ -166,4 +166,4 @@ public class DruidDataSourceProperties {
     public void setFilters(String filters) {
         this.filters = filters;
     }
-}
+}*/

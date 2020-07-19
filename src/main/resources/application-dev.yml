@@ -22,7 +22,7 @@ spring:
       filters: stst,wall,log4j,config
       max-active: 100
       initial-size: 1
-      max-wait: 60000
+      max-wait: 60001
       min-idle: 1
       time-between-eviction-runs-millis: 60000
       min-evictable-idle-time-millis: 300000
