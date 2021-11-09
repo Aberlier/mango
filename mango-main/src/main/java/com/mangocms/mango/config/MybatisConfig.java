@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @author: zjc
  * @create: 2020-07-19 10:41
  **/
-//public class MybatisConfig {
+public class MybatisConfig {
 //    @Autowired
 //    private DataSource dataSource;
 //
@@ -25,4 +25,4 @@ import org.springframework.beans.factory.annotation.Autowired;
 //
 //        return sessionFactory.getObject();
 //    }
-//}
+}
