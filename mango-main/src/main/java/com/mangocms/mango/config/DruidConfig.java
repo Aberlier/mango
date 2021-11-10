@@ -30,8 +30,9 @@ public class DruidConfig {
     /*  @Autowired
       private DruidDataSourceProperties properties;*/
     //可以自动将.xml中的druid进行装配变成对应的实体类
-   @ConfigurationProperties(prefix = "spring.datasource.druid")
+
     @Bean
+    @ConfigurationProperties(prefix = "spring.datasource.druid")
     //已经在配置文件中加入Druid配置
     public DataSource druidDataSource() {
         /*DruidDataSource druidDataSource = new DruidDataSource();
